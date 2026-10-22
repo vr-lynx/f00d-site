@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 1920px;
+    height: 955px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Rectangle 30.png");
+}
+.nav1{
+    width: 7%;
+    height: 100%;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;;
+}
+.nav1 img{
+    cursor: pointer;
+}
+.nav1_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.nav1_top img{
+    padding-top: 15px;
+}
+.nav1_bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.nav1_bot li{
+    list-style: none;
+}
+.nav2{
+    width: 1800px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.top_nav2{
+    width: 1800px;
+    height: 180%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: column;
+}
+.top_nav2 ul{
+    width: 35%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 40px;
+}
+.top_nav2 ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.top_nav2 ul li a button{
+    background-color: #B59571;
+    color: white;
+    border: none;
+    width: 145px;
+    height: 42px;
+    cursor: pointer;
+}
+.bot_nav2{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;   
+}
+.bot_nav2 h1{
+    color: white;
+    font-size: 42px;
+    width: 55%;
+    height: 40%;
+}
+.sec1{
+    width: 80%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 320px;
+}
+.o_restorane{
+    width: 18%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+.o_restorane_text{
+    width: 60%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+.rest_text{
+    width:100px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.rest_text p{
+    font-size: 42px;
+    font-weight: bold;
+}
+.rest_moretext{
+    width: 50%;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.sec2{
+    width: 80%;
+    height: 750px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 320px;
+}
+.top_menu{
+    width: 12%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.under_menu{
+    width: 58%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    margin-left: 150px;
+}
+.topleft_menu{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.topleft_menu p{
+    font-size: 42px;
+    font-weight: bold;
+}
+.topright_menu{
+    width: 50%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-bottom: 115px;
+}
+.bot_menu{
+    width: 58%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 230px;
+}
+.left_botmenu{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.botmenu_info{
+    width: 70%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right_botmenu{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec3{
+    width: 80%;
+    height: 750px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 320px;
+}
+.delivery{
+    width: 15%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about_delivery{
+    width: 58%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    margin-left: 150px;
+}
+.left_delivery{
+    width: 100px;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.left_delivery p{
+    font-size: 32px;
+    font-weight: bold;
+}
+.right_delivery{
+    width: 51%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 110px;
+}
+.delivery_but{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    cursor: pointer;
+
+}
+.delivery_but{
+    width: 340px;
+    height: 58px;
+}
+.delivery_but button{
+    width: 155px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #B59571;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.but2 button{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.sec4{
+    width: 80%;
+    height: 750px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 320px;
+}
+.contacts{
+    width: 16%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts_main{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.left_cont{
+    width: 33%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.topContCard{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.botContCard{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.leftcont_card{
+    width: 32%;
+    height: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+}
+.time_from{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+.leftcont_card p{
+    font-size: 14px;
+    font-weight: normal;
+}
+.mid_cont{
+    width: 33%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5B5B5B;
+    color: white;
+    z-index: 2;
+}
+.address_phone{
+    width: 80%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.address_phone a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+.add_phoneCard{
+    width: 91%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.add_phoneCard2{
+    width: 91%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.add_phoneCard2 img{
+    padding-left: 5px;
+}
+.timework{
+    width: 80%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.timework p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.timework span{
+    font-weight: normal;
+}
+.cont_buttons{
+    width: 80%;
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cont_buttons button{
+    width: 150px;
+    height: 45px;
+    border: none;
+    background-color: #B59571;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+.zadat_vopros_but button{
+    width: 150px;
+    height: 45px;
+    border: 1px solid white;
+    background-color: #5B5B5B;
+    cursor: pointer;
+}
+.right_cont{
+    width: 26%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 140px;
+}
+.right_cont iframe{
+    width: 60%;
+    height: 80%;
+    position: absolute;
+    z-index: 1;
+}
+.footer{
+    width: 1920px;
+    height: 90px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer ul li{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
