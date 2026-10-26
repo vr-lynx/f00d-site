@@ -500,3 +500,384 @@
     align-items: center;
     cursor: pointer;
 }
+.open_menu{
+    width: 1920px;
+    height: 955px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    flex-direction: column;
+}
+.logo_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 20%;
+}
+.logo_menu ul{
+    width: 15%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+}
+.logo_menu ul li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.navigation{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation ul{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+}
+.navigation ul li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navigation ul li button{
+    width: 150px;
+    height: 45px;
+    background-color: #B59571;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.soc_link{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.soc_link ul{
+    width: 15%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.soc_link ul li{
+    cursor: pointer;
+}
+.main_name{
+    width: 1920px;
+    height: 955px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('Rectangle 30.png');
+    background-size: cover;
+}
+.main_name h1{
+    margin-bottom: 120px;
+    margin-right: 430px;
+    color: white;
+    font-size: 42px;
+}
+.modal_overlay{
+    position: fixed;
+    background-color: rgba(51,51,51, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+.modal_window{
+    width: 22%;
+    height: 60%;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.modal_close{
+    width: 100%;
+    height: 9%;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+.modal_lofo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.res_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.res_name p{
+    font-size: 20px;
+    color: white;
+}
+.modal_input{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.col_input{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.col_input input{
+    width: 85%;
+    height: 55px;
+    background-color: #333333;
+    border: 1px solid rgba(255,255,255, 0.4);
+    padding-left: 10px;
+}
+.col_input input::placeholder{
+    color: white;
+}
+.row_input{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.row_input input{
+    width: 39%;
+    height: 50px;
+    background-color: #333333;
+    border: 1px solid rgba(255,255,255, 0.4);
+    padding-left: 10px;
+}
+.row_input input::placeholder{
+    color: white;
+}
+.but_reserve{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.but_reserve button{
+    background-color: #B59571;
+    color: white;
+    border: none;
+    width: 50%;
+    height: 30%;
+    cursor: pointer;
+}
+.main_delivery{
+    width: 1920px;
+    height: 955px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.gray_nav{
+    width: 6%;
+    height: 100%;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.gray_top{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.gray_bot{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.gray_bot ul{
+    list-style: none;
+}
+
+.right_side{
+    width: 94%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.nav_info{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: start;
+    margin-right: 300px;
+}
+.nav_info ul{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.nav_info ul li a{
+    text-decoration: none;
+    color: black;
+}
+.choice_of_foods{
+    width: 94%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.delivery_nav{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+.delivery_nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.delivery_nav ul li{
+    width: auto;
+    height: 100%;
+}
+.delivery_nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.focus_menu{
+    width: auto;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.breakfast_cards{
+    width: 90%;
+    height: 120%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.menu_card{
+    width: 23%;
+    height: 42%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu_card a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 35px;
+}
+.menucard_bot{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
+}
+.menucard_bot h3{
+    font-size: 26px;
+}
+.menucard_bot button{
+    width: 145px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    background-color: #B59571;
+    color: white;
+    cursor: pointer;
+}
+.cont_delivery{
+    width: 80%;
+    height: 955px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 600px;
+    margin-left: 115px;
+}
+.contacts2{
+    width: 16%;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 60%;
+}
+.logo_pay{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
